@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Cooking Conversions</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Cooking Conversions</h1>
+    <form id="toCup">
+      <div class="form-group">
+        <label for="tablespoon1">Enter number of tablespoons</label>
+        <input id="tablespoon1" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert</button>
+    </form>
+    <div id="output"></div>
 
+    <form id="toGallon">
+      <div class="form-group">
+        <label for="liter1">Enter number of liters</label>
+        <input id="liter1" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert</button>
+    </form>
+    <div id="output2"></div>
+  </div>
 </body>
 </html>
